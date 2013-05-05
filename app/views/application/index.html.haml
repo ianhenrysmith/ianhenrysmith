@@ -1,10 +1,12 @@
-.h1="ianhenrysmith.com"
+.main
+  = image_tag "sig.png"
+  .h1="ianhenrysmith.com"
 
-= link_to "@ianhenrys", "http://twitter.com/ianhenrys"
+  = link_to "@ianhenrys", "http://twitter.com/ianhenrys"
 
-.block_1
-  ="I'm a web developer at #{link_to( "Kapost", "http://kapost.com")}.".html_safe
+  .block_1
+    ="I'm a web developer at #{link_to( "Kapost", "http://kapost.com")}.".html_safe
   
-.block_1
-  %p="side projects:"
-  %a{href: "http://oncethis.com"}="OnceThis"
+  .block_1
+    %p="side projects:"
+    %a{href: "http://oncethis.com"}="OnceThis"

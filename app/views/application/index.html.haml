@@ -9,21 +9,22 @@
       ="fb"
 
     %a.h2.title_item.li{href: "http://www.linkedin.com/profile/view?id=33750806"}
-      ="linkedin"
+      ="linked"
 
     %a.h2.title_item.in{href: "http://instagram.com/ianhenrysmith"}
-      ="instagram"
+      ="inst"
 
     %a.h2.title_item.gh{href: "https://github.com/ianisborn"}
       ="github"
 
     %a.h2.title_item.lf{href: "http://www.last.fm/user/ianisborn"}
-      ="last.fm"
+      ="lastfm"
 
-  %section.hidden
-    ="I'm a web developer at #{link_to( "Kapost", "http://kapost.com")}.".html_safe
+    %a.h2.title_item.sc{href: "https://soundcloud.com/ianhenrysmith"}
+      ="soundcloud"
+    
 
   %main
-    - %w(podcasts side_projects).each do |section|
-      %section
+    - %w(about podcasts side_projects sites apps cities).each do |section|
+      %section{id: section}
         = render partial: section

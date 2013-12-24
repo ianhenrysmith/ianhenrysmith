@@ -66,8 +66,9 @@ module Ianhenrysmith
     config.assets.version = '1.0'
 
     config.assets.compile = true
-
     # Generate digests for assets URLs
     config.assets.digest = false
+
+    config.serve_static_assets = false
   end
 end

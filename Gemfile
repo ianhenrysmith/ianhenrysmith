@@ -26,8 +26,9 @@ end
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
-gem 'debugger'
+group :development do
+  gem 'debugger'
+end
 
 # gem "devise"
 gem "haml", ">= 4.0.0"

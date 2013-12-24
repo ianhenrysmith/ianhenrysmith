@@ -27,7 +27,7 @@ end
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
 
 # gem "devise"
 gem "haml", ">= 4.0.0"

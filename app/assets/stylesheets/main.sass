@@ -39,7 +39,6 @@ blockquote, q
 body
   color: #353535
   font-family: "PT Serif"
-  margin: 0 1em
   
 a
   color: #FF0066
@@ -60,11 +59,11 @@ h6, .h6
   font-size: 0.67em
 
 main
-  margin: 8em auto 0 auto
+  margin: 4em auto 0 auto
   width: 480px
 
 section
-  line-height: 1.3
+  line-height: 1.6
   margin: 4em 0
 
 // styles
@@ -83,11 +82,14 @@ section
 .sc, .sc:visited
   color: #ff5500
 
+.accounts
+  display: inline-block
+
 .hidden
   display: none
 
 .main_container
-  margin: auto
+  margin: 1em auto
   width: 960px
 
 .title_item, .list_item
@@ -97,3 +99,23 @@ section
 .title
   background: #FCEC37
   padding: 0.5em
+
+// responsive
+@media (max-width: 960px)
+  main
+    margin: 2em auto 0 auto
+    width: auto
+
+  section
+    line-height: 1.7
+    margin: 1em 0
+
+  .link_list
+    a
+      margin-right: 1em
+
+  .accounts
+    display: block
+    margin-top: 1em
+  .main_container
+    width: auto

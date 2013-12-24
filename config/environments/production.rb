@@ -20,6 +20,8 @@ Ianhenrysmith::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  config.action_controller.asset_host = "d37n5umfm8ou7h.cloudfront.net"
+
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 
@@ -42,9 +44,6 @@ Ianhenrysmith::Application.configure do
   # Use a different cache store in production
   # config.cache_store = :mem_cache_store
 
-  # Enable serving of images, stylesheets, and JavaScripts from an asset server
-  # config.action_controller.asset_host = "http://assets.example.com"
-
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
   # config.assets.precompile += %w( search.js )
 
@@ -60,5 +59,7 @@ Ianhenrysmith::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+  config.eager_load = true
 
 end

@@ -20,7 +20,7 @@ Ianhenrysmith::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
-  config.action_controller.asset_host = "d37n5umfm8ou7h.cloudfront.net"
+  config.action_controller.asset_host = "d3msyv2akoj9ls.cloudfront.net"
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH

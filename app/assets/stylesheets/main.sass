@@ -101,7 +101,49 @@ section
   padding: 0.5em
 
 // responsive
+@media screen
+  body
+    font-size: 2em
+
 @media (max-width: 960px)
+  main
+    margin: 2em auto 0 auto
+    width: auto
+
+  section
+    line-height: 1.7
+    margin: 1em 0
+
+  .link_list
+    a
+      margin-right: 1em
+
+  .accounts
+    display: block
+    margin-top: 1em
+  .main_container
+    width: auto
+
+@media screen and (max-width: 960px), only screen and (-webkit-min-device-pixel-ratio: 2)
+  main
+    margin: 2em auto 0 auto
+    width: auto
+
+  section
+    line-height: 1.7
+    margin: 1em 0
+
+  .link_list
+    a
+      margin-right: 1em
+
+  .accounts
+    display: block
+    margin-top: 1em
+  .main_container
+    width: auto
+    
+@media only screen and (max-device-width : 480px)
   main
     margin: 2em auto 0 auto
     width: auto

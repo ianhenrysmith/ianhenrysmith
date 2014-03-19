@@ -22,6 +22,8 @@ Ianhenrysmith::Application.configure do
 
   config.action_controller.asset_host = "d3msyv2akoj9ls.cloudfront.net"
 
+  config.assets.initialize_on_precompile = true
+
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 

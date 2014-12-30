@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby "1.9.3"
-gem 'rails', '4.0.2'
+ruby "2.1.4"
+gem 'rails', '4.1.7'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -27,7 +27,7 @@ end
 # gem 'capistrano'
 
 group :development do
-  gem 'debugger'
+  gem 'byebug'
 end
 
 # gem "devise"

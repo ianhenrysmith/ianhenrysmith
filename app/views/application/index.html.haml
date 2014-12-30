@@ -1,18 +1,18 @@
 .main_container
-  %h1.title.title_item="Ian Henry Smith"
+  %h1.title.title_item="Ian Henry Smith (.com)"
 
   .accounts
     %a.h2.title_item.tw{href: "https://twitter.com/ianhenrys"}
       ="@ianhenrys"
 
     %a.h2.title_item.fb{href: "https://www.facebook.com/ianhenrysmith"}
-      ="fb"
+      ="facebook"
 
     %a.h2.title_item.li{href: "http://www.linkedin.com/profile/view?id=33750806"}
-      ="linked"
+      ="linkedin"
 
     %a.h2.title_item.in{href: "http://instagram.com/ianhenrysmith"}
-      ="inst"
+      ="instagram"
 
     %a.h2.title_item.gh{href: "https://github.com/ianisborn"}
       ="github"
@@ -25,6 +25,6 @@
     
 
   %main
-    - %w(about podcasts side_projects content cool restaurants cities sites apps).each do |section|
+    - %w(about podcasts side_projects content cool restaurants cities sites denver apps).each do |section|
       %section{id: section, class: section_classes(section)}
         = render partial: section

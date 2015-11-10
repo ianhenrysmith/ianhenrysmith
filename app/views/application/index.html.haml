@@ -25,6 +25,6 @@
     
 
   %main
-    - %w(about podcasts side_projects content cool restaurants cities sites denver apps).each do |section|
+    - %w(about podcasts content restaurants cities cool sites denver apps side_projects).each do |section|
       %section{id: section, class: section_classes(section)}
         = render partial: section

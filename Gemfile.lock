@@ -76,6 +76,7 @@ GEM
       ruby_parser (~> 3.5)
     i18n (1.5.3)
       concurrent-ruby (~> 1.0)
+    irb (1.0.0)
     loofah (2.2.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -163,6 +164,7 @@ DEPENDENCIES
   coffee-rails
   haml
   haml-rails
+  irb (~> 1.0)
   rails (= 5.2.2)
   sass-rails
   uglifier

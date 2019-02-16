@@ -3,22 +3,12 @@
 
   .accounts
     %a.h2.title_item.tw{href: "https://twitter.com/ianhenrys"}
-      ="@ianhenrys"
-
-    %a.h2.title_item.fb{href: "https://www.facebook.com/ianhenrysmith"}
-      ="facebook"
-
-    %a.h2.title_item.in{href: "http://instagram.com/ianhenrysmith"}
-      ="instagram"
+      ="twitter"
 
     %a.h2.title_item.gh{href: "https://github.com/ianisborn"}
       ="github"
 
-    %a.h2.title_item.sc{href: "https://soundcloud.com/ianhenrysmith"}
-      ="soundcloud"
-    
-
   %main
-    - %w(about podcasts content restaurants cities cool sites denver apps side_projects).each do |section|
+    - %w(about restaurants cities denver).each do |section|
       %section{id: section, class: section_classes(section)}
         = render partial: section

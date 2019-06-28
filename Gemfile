@@ -1,33 +1,31 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
 ruby "2.6.1"
-gem 'rails', '5.2.2'
+gem "rails", "5.2.2"
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-
+# gem "rails", :git => "git://github.com/rails/rails.git"
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
+  gem "sass-rails"
+  gem "coffee-rails"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  # gem "therubyracer", :platforms => :ruby
 
-  gem 'uglifier'
+  gem "uglifier"
 end
 
 # Use unicorn as the app server
-# gem 'unicorn'
+# gem "unicorn"
 
 # Deploy with Capistrano
-# gem 'capistrano'
+# gem "capistrano"
 
 group :development do
-  gem 'byebug'
+  gem "byebug"
 end
 
 # gem "devise"

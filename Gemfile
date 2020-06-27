@@ -36,3 +36,5 @@ gem "haml-rails"
 # gem "mongoid", ">= 2.0.0.beta.19"
 
 gem "irb", "~> 1.0"
+
+gem "e2mmap", "~> 0.1.0"

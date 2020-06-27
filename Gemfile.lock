@@ -54,6 +54,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
+    e2mmap (0.1.0)
     erubi (1.9.0)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -162,6 +163,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails
+  e2mmap (~> 0.1.0)
   haml
   haml-rails
   irb (~> 1.0)
